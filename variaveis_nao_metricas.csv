@@ -1,0 +1,130 @@
+Coluna;Valor;Descricao;Nota
+LotShape;       Reg;Regular;0
+LotShape;       IR1;Slightly irregular;1
+LotShape;       IR2;Moderately Irregular;2
+LotShape;       IR3;Irregular;3
+LandContour;       Lvl;Near Flat/Level;0
+LandContour;       Bnk;Banked - Quick and significant rise from street grade to building;1
+LandContour;       HLS;Hillside - Significant slope from side to side;2
+LandContour;       Low;Depression;3
+Utilities;       AllPub;All public Utilities (E,G,W,& S);0
+Utilities;       NoSewr;Electricity, Gas, and Water (Septic Tank);1
+Utilities;       NoSeWa;Electricity and Gas Only;2
+Utilities;       ELO;Electricity only;3
+LandSlope;       Gtl;Gentle slope;0
+LandSlope;       Mod;Moderate Slope;1
+LandSlope;       Sev;Severe Slope;2
+OverallQual;10;Very Excellent;0
+OverallQual;9;Excellent;1
+OverallQual;8;Very Good;2
+OverallQual;7;Good;3
+OverallQual;6;Above Average;4
+OverallQual;5;Average;5
+OverallQual;4;Below Average;6
+OverallQual;3;Fair;7
+OverallQual;2;Poor;8
+OverallQual;1;Very Poor;9
+OverallCond;10;Very Excellent;0
+OverallCond;9;Excellent;1
+OverallCond;8;Very Good;2
+OverallCond;7;Good;3
+OverallCond;6;Above Average;4
+OverallCond;5;Average;5
+OverallCond;4;Below Average;6
+OverallCond;3;Fair;7
+OverallCond;2;Poor;8
+OverallCond;1;Very Poor;9
+ExterQual;       Ex;Excellent;0
+ExterQual;       Gd;Good;1
+ExterQual;       TA;Average/Typical;2
+ExterQual;       Fa;Fair;3
+ExterQual;       Po;Poor;4
+ExterCond;       Ex;Excellent;0
+ExterCond;       Gd;Good;1
+ExterCond;       TA;Average/Typical;2
+ExterCond;       Fa;Fair;3
+ExterCond;       Po;Poor;4
+BsmtQual;       Ex;Excellent (100+ inches);0
+BsmtQual;       Gd;Good (90-99 inches);1
+BsmtQual;       TA;Typical (80-89 inches);2
+BsmtQual;       Fa;Fair (70-79 inches);3
+BsmtQual;       Po;Poor (<70 inches;4
+BsmtQual;nan;No Basement;5
+BsmtCond;       Ex;Excellent;0
+BsmtCond;       Gd;Good;1
+BsmtCond;       TA;Typical - slight dampness allowed;2
+BsmtCond;       Fa;Fair - dampness or some cracking or settling;3
+BsmtCond;       Po;Poor - Severe cracking, settling, or wetness;4
+BsmtCond;nan;No Basement;5
+BsmtExposure;       Gd;Good Exposure;0
+BsmtExposure;       Av;Average Exposure (split levels or foyers typically score average or above);1
+BsmtExposure;       Mn;Mimimum Exposure;2
+BsmtExposure;       No;No Exposure;3
+BsmtExposure;nan;No Basement;4
+BsmtFinType1;       GLQ;Good Living Quarters;0
+BsmtFinType1;       ALQ;Average Living Quarters;1
+BsmtFinType1;       BLQ;Below Average Living Quarters;2
+BsmtFinType1;       Rec;Average Rec Room;3
+BsmtFinType1;       LwQ;Low Quality;4
+BsmtFinType1;       Unf;Unfinshed;5
+BsmtFinType1;nan;No Basement;6
+BsmtFinType2;       GLQ;Good Living Quarters;0
+BsmtFinType2;       ALQ;Average Living Quarters;1
+BsmtFinType2;       BLQ;Below Average Living Quarters;2
+BsmtFinType2;       Rec;Average Rec Room;3
+BsmtFinType2;       LwQ;Low Quality;4
+BsmtFinType2;       Unf;Unfinshed;5
+BsmtFinType2;nan;No Basement;6
+HeatingQC;       Ex;Excellent;0
+HeatingQC;       Gd;Good;1
+HeatingQC;       TA;Average/Typical;2
+HeatingQC;       Fa;Fair;3
+HeatingQC;       Po;Poor;4
+KitchenQual;       Ex;Excellent;0
+KitchenQual;       Gd;GGarageAreaood;1
+KitchenQual;       TA;Typical/Average;2
+KitchenQual;       Fa;Fair;3
+KitchenQual;       Po;Poor;4
+Functional;       Typ;Typical Functionality;0
+Functional;       Min1;Minor Deductions 1;1
+Functional;       Min2;Minor Deductions 2;2
+Functional;       Mod;Moderate Deductions;3
+Functional;       Maj1;Major Deductions 1;4
+Functional;       Maj2;Major Deductions 2;5
+Functional;       Sev;Severely Damaged;6
+Functional;       Sal;Salvage only;7
+FireplaceQu;       Ex;Excellent - Exceptional Masonry Fireplace;0
+FireplaceQu;       Gd;Good - Masonry Fireplace in main level;1
+FireplaceQu;       TA;Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement;2
+FireplaceQu;       Fa;Fair - Prefabricated Fireplace in basement;3
+FireplaceQu;       Po;Poor - Ben Franklin Stove;4
+FireplaceQu;nan;No Fireplace;5
+GarageFinish;       Fin;Finished;0
+GarageFinish;       RFn;Rough Finished;1
+GarageFinish;       Unf;Unfinished;2
+GarageFinish;nan;No Garage;3
+GarageQual;       Ex;Excellent;0
+GarageQual;       Gd;Good;1
+GarageQual;       TA;Typical/Average;2
+GarageQual;       Fa;Fair;3
+GarageQual;       Po;Poor;4
+GarageQual;nan;No Garage;5
+GarageCond;       Ex;Excellent;0
+GarageCond;       Gd;Good;1
+GarageCond;       TA;Typical/Average;2
+GarageCond;       Fa;Fair;3
+GarageCond;       Po;Poor;4
+GarageCond;nan;No Garage;5
+PavedDrive;       Y;Paved ;0
+PavedDrive;       P;Partial Pavement;1
+PavedDrive;       N;Dirt/Gravel;2
+PoolQC;       Ex;Excellent;0
+PoolQC;       Gd;Good;1
+PoolQC;       TA;Average/Typical;2
+PoolQC;       Fa;Fair;3
+PoolQC;nan;No Pool;4
+Fence;       GdPrv;Good Privacy;0
+Fence;       MnPrv;Minimum Privacy;1
+Fence;       GdWo;Good Wood;2
+Fence;       MnWw;Minimum Wood/Wire;3
+Fence;nan;No Fence;4
